@@ -9,6 +9,7 @@
 }
 .texto-centrado{
     text-align: center;
+    line-height: 0.5rem;
 }
 .negrita{
     font-weight: bold;
@@ -29,4 +30,7 @@
 }
 #foto-principal{
     filter: brightness(70%);
+}
+.boton-carta{
+    font-size: 0.5rem;
 }
