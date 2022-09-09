@@ -7,3 +7,26 @@
 .letra-verde{
     color:green;
 }
+.texto-centrado{
+    text-align: center;
+}
+.negrita{
+    font-weight: bold;
+    font-size: larger;
+}
+.padre{
+    position: relative;
+    display: inline-block;
+}
+.texto-de-imagen{
+    text-align: right;
+    color: white;
+    position: absolute;
+    top: 10rem;
+    right: 3rem;
+    width: 25rem;
+    
+}
+#foto-principal{
+    filter: brightness(70%);
+}
