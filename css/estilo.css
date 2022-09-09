@@ -31,6 +31,22 @@
 #foto-principal{
     filter: brightness(70%);
 }
-.boton-carta{
-    font-size: 0.5rem;
+.boton-carta-js{
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 0.1rem;
+}
+.boton-carta-react{
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.1rem;
+}
+.fila-cartas{
+    justify-content: center;
+
+}
+.boton-carta-ada{
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.1rem;
 }
