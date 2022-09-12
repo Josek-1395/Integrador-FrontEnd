@@ -79,20 +79,19 @@
             </div>
         </div>
     </div>
-    <div class="texto-centrado my-4">
-        <p>Conviértete en un</p>
-        <P class="negrita">ORADOR</P>
+    <!-- formulario usuario -->
+    <div class="texto-centrado">
+            <p>Conviértete en un <br> <span class="negrita">ORADOR</span></p>
         <p>Anótate como orador para dar una <span style="text-decoration-line: underline; text-decoration-style: dotted;">charla ignite</span>. Cuéntanos de que quieres hablar!</p>
     </div>
-    <form>
-        <div class="container">
+    <form class="mx-2">
             <div class="row">
-                <div class="col-6 form-group">
-                    <input type="text" name="nombre" id="campo-nombre" placeholder="Nombre">
-                </div>
-                <div class="col-6 form-group">
-                    <input type="text" name="apellido" id="campo-apellido" placeholder="Apellido">
-                </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
             </div>
             <div class="row">
                 <div class="form-group">
@@ -101,10 +100,10 @@
                 </div>
             </div>
             <div class="row">
-                <button type="button" class="my-4 btn btn-lg btn-block" style="background-color:rgb(74, 204, 41) ;">Enviar</button>
+                <button type="button" class="my-4 mx-2 btn btn-lg btn-block" style="background-color:rgb(74, 204, 41) ;">Enviar</button>
             </div>
-        </div>
     </form>
+    <!-- footer -->
     <nav class="navbar navbar-light" style="background-color:#1f5270;">
         <a class="navbar-brand" href="#">Preguntas frecuentes</a>
         <a class="navbar-brand" href="#">Contáctanos</a>
