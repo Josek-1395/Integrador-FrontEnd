@@ -18,6 +18,7 @@
     position: relative;
     display: inline-block;
 }
+@media only screen and (max-width: 576px){
 .texto-de-imagen{
         text-align: right;
         color: white;
@@ -26,15 +27,35 @@
         right: 1rem;
         width: 26rem;
 }
-
+}
+@media only screen and (min-width: 577px) {
+    .texto-de-imagen{
+        text-align: right;
+        color: white;
+        position: absolute;
+        top: 4rem;
+        right: 1rem;
+        width: 26rem;
+}
+}
 .boton-de-imagen{
     position: absolute;
     top: 8px;
     right: 16px;
 }
-#foto-principal{
-    filter: brightness(70%);
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    #foto-principal{
+        filter: brightness(70%);
+        height: 20rem;
+    }
 }
+@media only screen and (min-width: 577px) {
+    #foto-principal{
+        filter: brightness(70%);
+    }
+  }
+
 .boton-carta-js{
     font-weight: bold;
     font-size: 0.7rem;
