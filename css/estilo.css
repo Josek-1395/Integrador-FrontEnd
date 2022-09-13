@@ -19,13 +19,18 @@
     display: inline-block;
 }
 .texto-de-imagen{
-    text-align: right;
-    color: white;
+        text-align: right;
+        color: white;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 26rem;
+}
+
+.boton-de-imagen{
     position: absolute;
-    top: 10rem;
-    right: 3rem;
-    width: 25rem;
-    
+    top: 8px;
+    right: 16px;
 }
 #foto-principal{
     filter: brightness(70%);
