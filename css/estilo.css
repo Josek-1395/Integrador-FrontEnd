@@ -1,6 +1,9 @@
 .letra-blanca{
     color:azure;
 }
+.text-right{
+    text-align: right;
+}
 .letra-gris{
     color:grey;
 }
