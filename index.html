@@ -105,28 +105,36 @@
         </div>
     </div>
     <!-- formulario usuario -->
-    <div class="container-sm">
+    <div class="container">
+      <div class="row">
         <div class="texto-centrado">
-                <p>Conviértete en un <br> <span class="negrita">ORADOR</span></p>
+            <p>Conviértete en un <br> <span class="negrita">ORADOR</span></p>
             <p>Anótate como orador para dar una <span style="text-decoration-line: underline; text-decoration-style: dotted;">charla ignite</span>. Cuéntanos de que quieres hablar!</p>
         </div>
-        <form class="container-sm mx-2">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido">
-                  </div>
-                </div>
-                <div class="row">
-                    <div class="form-group">
-                        <textarea class="mt-4 container-fluid" name="about" id="campo-about" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
-                        <small id="campo-about" class="form-text text-muted">Recuerda incluir un titulo para tu charla</small>
-                    </div>
-                </div>
-                <div class="row m-1"><button type="button" class="btn btn-block" style="background-color:rgb(74, 204, 41) ;">Enviar</button></div>
-        </form>
+      </div>
+    </div>
+    <div class="container">
+      <form>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Apellido">
+          </div>
+        </div>    
+        <div class="form-group">
+          <div class="row justify-content-center">
+              <div class="col-md-8">
+                <textarea class="mt-4 container-fluid" name="about" id="campo-about" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+                <small id="campo-about" class="form-text text-muted">Recuerda incluir un titulo para tu charla</small>
+              </div>
+          </div>  
+          <div class="d-grid gap-2 col-md-8 mx-auto">
+            <button type="button" class="btn btn-block" style="background-color:rgb(74, 204, 41) ;">Enviar</button>
+          </div>
+        </div>                 
+      </form>
     </div>
 
     <!-- footer -->
