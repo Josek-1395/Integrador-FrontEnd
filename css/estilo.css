@@ -21,6 +21,12 @@
     position: relative;
     display: inline-block;
 }
+.js p{
+    text-align: center;
+}
+.bt-js::placeholder{
+    color: white;
+}
 @media only screen and (max-width: 576px){
 .texto-de-imagen{
         text-align: right;
