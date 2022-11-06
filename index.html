@@ -138,19 +138,19 @@
 <!-- seccion JavaScript -->
     <div class="container pt-5" id="ancla">
       <div class="row js justify-content-center">
-        <div class="col-md-2" style="border: solid 1px blue;">
+        <div class="col-md-2 mx-1" style="border: solid 1px blue;">
           <p class="negrita">Estudiante</p>
           <p>Tienen un descuento</p>
           <p class="negrita">80%</p>
           <p class="letra-gris">*presentar documentacion</p>
         </div>
-        <div class="col-md-2" style="border: solid 1px green;">
+        <div class="col-md-2 mx-1" style="border: solid 1px green;">
           <p class="negrita">Trainee</p>
           <p>Tienen un descuento</p>
           <p class="negrita">50%</p>
           <p class="letra-gris">*presentar documentacion</p>
         </div>
-        <div class="col-md-2" style="border: solid 1px yellow;">
+        <div class="col-md-2 mx-1" style="border: solid 1px orange;">
           <p class="negrita">Junior</p>
           <p>Tienen un descuento</p>
           <p class="negrita">15%</p>
@@ -192,14 +192,14 @@
           </div>
           <div class="row justify-content-center pt-2">
             <div class="col-md-6"
-            ><input type="text" id="valor-final-tickets" class="form-control form-control-lg bg-info" placeholder="Total a pagar: $" disabled>
+            ><input type="text" id="valor-final-tickets" class="form-control form-control-lg total" placeholder="Total a pagar: $" disabled style="background-color:cyan;">
           </div>
           <div class="row justify-content-center pt-3">
             <div class="col-md-3">
-              <button type="button" class="btn btn-success btn-block" onclick="borrar()">Borrar</button>
+              <input type="button" class="btn" onclick="borrar()" value="Borrar" style="background-color:rgb(74, 204, 41) ;"></input>
             </div>
             <div class="col-md-3">
-              <button type="button" class="btn btn-success btn-block" onclick="resumen()">Resumen</button>
+              <input type="button" class="btn" onclick="resumen()" value="Resumen" style="background-color:rgb(74, 204, 41) ;"></input>
             </div>
           </div>
           </div> 

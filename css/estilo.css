@@ -27,6 +27,9 @@
 .bt-js::placeholder{
     color: white;
 }
+.total::placeholder{
+    color: black;
+}
 @media only screen and (max-width: 576px){
 .texto-de-imagen{
         text-align: right;
