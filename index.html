@@ -179,23 +179,27 @@
           <div class="row justify-content-center pt-2">
             <div class="col-md-3">
               <label>Cantidad</label>
-              <input type="text"class="form-control" placeholder="Cantidad">
+              <input type="text"class="form-control" placeholder="Cantidad" id="cantidad">
             </div>
             <div class="col-md-3">
               <label>Categoria</label>
-              <input type="text"class="form-control" placeholder="Categoria">
+              <select class="form-select" aria-label="Default select example" id="categoria">
+                <option value="1">Estudiante</option>
+                <option value="2">Trainee</option>
+                <option value="3">Junior</option>
+              </select>
             </div>
           </div>
           <div class="row justify-content-center pt-2">
             <div class="col-md-6"
-            ><input type="text" class="form-control form-control-lg bg-info" placeholder="Total a pagar: $">
+            ><input type="text" id="valor-final-tickets" class="form-control form-control-lg bg-info" placeholder="Total a pagar: $" disabled>
           </div>
           <div class="row justify-content-center pt-3">
             <div class="col-md-3">
-              <input type="text" class="form-control bt-js" placeholder="Borrar" style="background-color:rgb(74, 204, 41) ;">
+              <button type="button" class="btn btn-success btn-block" onclick="borrar()">Borrar</button>
             </div>
             <div class="col-md-3">
-              <input type="text" class="form-control bt-js" placeholder="Resumen" style="background-color:rgb(74, 204, 41) ;">
+              <button type="button" class="btn btn-success btn-block" onclick="resumen()">Resumen</button>
             </div>
           </div>
           </div> 
@@ -214,6 +218,7 @@
           <a class="navbar-brand letra-blanca" href="#">Privacidad</a>
           <a class="navbar-brand letra-blanca" href="#">Estudiantes</a>
         </div>
+  <script src="js/Form.js"></script>
 </body>
 </html>
 <!-- Jose Carlos Khairallah -->
